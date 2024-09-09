@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.hero{
+    background-image: url(/Assets/space.jpg) ,linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(6,6,54,0.8672810188528537) 6%, rgba(0,212,255,1) 64%);;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+    opacity: .6;
+    z-index: -1;
+}
+.hero nav{
+   display: flex;
+   color: white;
+   justify-content: center;
+   padding-top: 2rem;
+   z-index: 999;
+   
+}
+.hero nav li{
+    list-style: none;
+    padding: 1rem 1rem;
+    background-color:#d6dbdf;
+    border-radius: 1rem;
+    z-index: 999;
+
+}
+.hero nav li a{
+    color: rgb(241, 18, 18);
+    text-decoration: none;
+    padding: .5rem 1rem;
+    /* background-color:#aeb6bf; */
+    border-radius: 1rem;
+    font-size: 1rem;
+    z-index: 999;
+    font-weight: 800;
+    transition: .5s;
+ }
+ .hero nav li a:hover{
+    background-color:#aeb6bf;
+ }
